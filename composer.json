@@ -1,0 +1,20 @@
+{
+    "name"       : "progeja/bookmarks",
+    "description": "Exported bookmarks file parser.",
+    "license"    : "MIT",
+    "authors"    : [
+        {
+            "name" : "Progeja",
+            "email": "progeja@gmail.com"
+        }
+    ],
+    "autoload"   : {
+        "psr-4": {
+            "Progeja\\Bookmarks\\": "src/"
+        }
+    },
+    "require"    : {
+        "php"    : "^8.1",
+        "ext-dom": "*"
+    }
+}
